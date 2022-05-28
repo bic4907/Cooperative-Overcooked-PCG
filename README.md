@@ -1,5 +1,8 @@
 # Cooperative Overcooked PCG
-Implementation of the paper, 'Toward Cooperative Level Generation in Multiplayer Game'
+Official implementation of the paper, `Toward Cooperative Level Generation in
+Multiplayer Games: A User Study in Overcooked!`, which is accept to `Conference on Games 2022`.  
+The paper will be published on the conference proceedings.
+
 
 ![generated_levels](./screenshot/generated_levels.png)
 
@@ -57,6 +60,9 @@ room2_pot3_onion3_dish3_outlet1_fd0.2_seed0 (Directory name is determined with o
 ├── utils
 └──variables
 ```
+
+## Maintainer
+- [In-Chang Baek](https://github.com/bic4907)
 
 ##  Disclaimer
 All the contents in the `overcooked_ai_py` directory are from the original repository of [HumanCompatibleAI/overcooked_ai](https://github.com/HumanCompatibleAI/overcooked_ai)
