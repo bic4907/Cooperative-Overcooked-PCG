@@ -12,6 +12,7 @@ The paper will be published on the conference proceedings.
 ```bash
 conda create -n overcookedpcg python=3.8
 conda activate overcookedpcg
+pip3 install setuptools==65.5.0 "wheel<0.40.0" # if pip install gym==0.21.0 is not working
 pip3 install -r requirements.txt
 ```
   
