@@ -30,9 +30,8 @@ class Workspace(object):
                                                                                                self.args.onion_count,
                                                                                                self.args.dish_count,
                                                                                                self.args.outlet_count,
-                                                                                               self.args.factor_distance,
-                                                                                               self.args.factor_between_distance,
-
+                                                                                               self.args.weight_resource_distance,
+                                                                                               self.args.weight_task_distance,
                                                                                                self.args.seed
                                                                                                )
         logger.info('Result path : {0}'.format(self.result_dir))
