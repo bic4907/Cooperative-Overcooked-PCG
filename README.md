@@ -21,19 +21,19 @@ pip3 install -r requirements.txt
 **Messy** (Every task is spread near-randomly in a shared
 kitchen. Players have to decide their strategy fully.)
 ```bash
-python3 experiment.py --room_count 1 --pot_count 3 --onion_count 3 --dish_count 3 --outlet_count 1 --weight_resource_distance 0 --weight_task_distance 0
+python3 experiment.py --room_count 1 --pot_count 3 --onion_count 3 --dish_count 3 --outlet_count 1 --weight_resource_distance 0 --weight_task_distance 0 --seed 0
 ```
 **IM1** (Same tasks are grouped and spread in a shared kitchen. Easier to collide between players than Messy.)
 ```bash
-python3 experiment.py --room_count 1 --pot_count 3 --onion_count 3 --dish_count 3 --outlet_count 1 --weight_resource_distance 0.3 --weight_task_distance 0
+python3 experiment.py --room_count 1 --pot_count 3 --onion_count 3 --dish_count 3 --outlet_count 1 --weight_resource_distance 0.3 --weight_task_distance 0 --seed 0
 ```
 **IM2** (A wall separates the players’ traffic. However, the cooperation is non-mandatory for serving a dish.)
 ```bash
-python3 experiment.py --room_count 2 --pot_count 3 --onion_count 3 --dish_count 3 --outlet_count 2 --weight_resource_distance 0 --weight_task_distance 0
+python3 experiment.py --room_count 2 --pot_count 3 --onion_count 3 --dish_count 3 --outlet_count 2 --weight_resource_distance 0 --weight_task_distance 0 --seed 0
 ```
 **EX**  (A wall separates the players’ traffic, dividing tasks by the wall. Cooperation is mandatory.)
 ```bash
-python3 experiment.py --room_count 2 --pot_count 3 --onion_count 3 --dish_count 3 --outlet_count 1 --weight_resource_distance 0.3 --weight_task_distance 0.9
+python3 experiment.py --room_count 2 --pot_count 3 --onion_count 3 --dish_count 3 --outlet_count 1 --weight_resource_distance 0.3 --weight_task_distance 0.9 --seed 0
 ```
 
 ### Results
